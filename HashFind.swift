@@ -6,7 +6,7 @@ func findFirstUniqueChar(_ s: String) -> Character? {
     // 第一次遍历字符串，统计每个字符出现的次数
     for char in s {
         charCount[char, default: 0] += 1
-    }
+    }  
     
     // 第二次遍历字符串，找到第一个出现次数为1的字符
     for char in s {

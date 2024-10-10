@@ -45,3 +45,29 @@ review algorithm for the interview
 输出: "l"
 ```
 
+### 查找两个视图的公共父视图
+
+[CommonSuperFind.swft](./CommonSuperFind.swft)
+
+
+### 快速排序
+
+[QuickSort.swift](./QuickSort.swift)
+
+例如：
+
+```
+输入: [3, 1, 2, 4, 5, 6, 7, 8, 9]
+输出: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+### 查找无序数组中的中间数
+
+[MiddleFind.swift](./MiddleFind.swift)
+
+例如：
+
+```
+输入: [3, 1, 2, 4, 5, 6, 7, 8, 9]
+输出: 5
+```
