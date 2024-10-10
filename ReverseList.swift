@@ -28,7 +28,6 @@ The `printList` function displays the contents of a linked list.
 
 The `reverseList` function reverses the order of nodes in a linked list.
 
-![截屏2024-10-10 10.13.17.png|400](https://obsidian0320.oss-cn-shanghai.aliyuncs.com/obsidian-picture/%E6%88%AA%E5%B1%8F2024-10-10%2010.13.17.png)
 */
 
 // 定义链表节点
