@@ -71,3 +71,8 @@ review algorithm for the interview
 输入: [3, 1, 2, 4, 5, 6, 7, 8, 9]
 输出: 5
 ```
+
+### B树查找
+
+[BTreeFind.swift](./BTreeFind.swift)
+
