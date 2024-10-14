@@ -134,14 +134,21 @@ class BTree {
 
     // 打印B树
     func printTree() {
-        printTree(root, level: 0)
+        printTree(root, level: 0, prefix: "")
     }
 
-    private func printTree(_ node: BTreeNode?, level: Int) {
+    private func printTree(_ node: BTreeNode?, level: Int, prefix: String) {
         guard let node = node else { return }
-        print("Level \(level): \(node.keys)")
-        for child in node.children {
-            printTree(child, level: level + 1)
+        
+        print("\(prefix)Level \(level): \(node.keys)")
+        
+        for (index, child) in node.children.enumerated() {
+            let isLast = index == node.children.count - 1
+            let newPrefix = prefix + (isLast ? "    " : "│   ")
+            let childPrefix = prefix + (isLast ? "└── " : "├── ")
+            
+            print("\(childPrefix)↓")
+            printTree(child, level: level + 1, prefix: newPrefix)
         }
     }
 
@@ -195,3 +202,15 @@ bTree.printTree()
 // bTree.insert(22)
 bTree.searchKey(15)  // 输出: Found key 15 in node with keys: [15]
 
+
+bTree.insert(2)
+bTree.printTree()
+
+
+// 使用for循环插入
+for i in 1...100 {
+    bTree.insert(i)
+}
+bTree.printTree()
+
+bTree.searchKey(93)
