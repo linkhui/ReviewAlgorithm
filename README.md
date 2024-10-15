@@ -10,6 +10,12 @@ review algorithm for the interview
 
 [Queue.swift](./Queue.swift)
 
+### 插入排序
+
+[InsertSort.swift](./InsertSort.swift)
+
+基本思想是将一个记录插入到已经排好序的有序表中，从而得到一个新的、记录数增1的有序表。
+
 ### 字符串反转
 
 [char_reverse.swift](./char_reverse.swift)
