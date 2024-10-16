@@ -23,6 +23,13 @@ review algorithm for the interview
 基本思想：分而治之，将一个大的问题分解为两个小的问题，然后递归解决。
 使用迭代而不是递归的原因是：递归会占用大量的栈空间，而迭代不会。
 
+### 归并排序
+
+[MergeSort.swift](./MergeSort.swift)
+
+基本思想：分而治之，将一个大的问题分解为两个小的问题，然后递归解决。
+
+
 ### 字符串反转
 
 [char_reverse.swift](./char_reverse.swift)
