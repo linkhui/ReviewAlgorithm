@@ -16,6 +16,13 @@ review algorithm for the interview
 
 基本思想是将一个记录插入到已经排好序的有序表中，从而得到一个新的、记录数增1的有序表。
 
+### 二分搜索
+
+[BinarySearch.swift](./BinarySearch.swift)
+
+基本思想：分而治之，将一个大的问题分解为两个小的问题，然后递归解决。
+使用迭代而不是递归的原因是：递归会占用大量的栈空间，而迭代不会。
+
 ### 字符串反转
 
 [char_reverse.swift](./char_reverse.swift)
