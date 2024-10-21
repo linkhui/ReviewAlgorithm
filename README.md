@@ -10,6 +10,7 @@ review algorithm for the interview
 
 - [数据结构](#数据结构)
 - [算法](#算法)
+- [LeetCode](#LeetCode)
 
 
 ## 数据结构
@@ -120,3 +121,14 @@ review algorithm for the interview
 
 [BTreeFind.swift](./BTreeFind.swift)
 
+## LeetCode
+
+[88. 合并两个有序数组](./MergeSortedList.swift)
+
+[27. 移除元素](./RemoveElement.swift)
+
+[26. 删除有序数组中的重复项](./RemoveDuplicate.swift)
+
+[80. 删除有序数组中的重复项 II](./RemoveDuplicateII.swift)  
+
+[169. 多数元素](./MajorityElement.swift)
