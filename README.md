@@ -148,3 +148,5 @@ review algorithm for the interview
 [55. 跳跃游戏](./JumpGame.swift)
 
 [45. 跳跃游戏 II](./JumpGame2.swift)
+
+[58. 最后一个单词的长度](./LastWordLength.swift)
