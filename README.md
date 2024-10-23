@@ -141,3 +141,8 @@ review algorithm for the interview
 [121. 买卖股票的最佳时机](./MaxProfit.swift)
 
 [122. 买卖股票的最佳时机 II](./MaxProfit2.swift)
+<<<<<<< Updated upstream
+=======
+
+[55. 跳跃游戏](./JumpGame.swift)
+>>>>>>> Stashed changes
