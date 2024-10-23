@@ -150,3 +150,5 @@ review algorithm for the interview
 [45. 跳跃游戏 II](./JumpGame2.swift)
 
 [58. 最后一个单词的长度](./LastWordLength.swift)
+
+[125. 验证回文串](./IsPalindrome.swift)
