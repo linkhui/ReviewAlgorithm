@@ -158,3 +158,7 @@ review algorithm for the interview
 [13. 罗马数字转整数](./RomanToInt.swift)
 
 [14. 最长公共前缀](./LongestCommonPrefix.swift)
+
+[28. 找出字符串中第一个匹配项的下标](./StrStr.swift)
+
+[383. 赎金信](./CanConstruct.swift)
